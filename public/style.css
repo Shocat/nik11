@@ -1,0 +1,42 @@
+* {
+    
+    padding: 0;
+    box-sizing: border-box;}
+
+
+.registr {
+    background: #F1F5FE;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.registr input{
+    padding: 5px;
+    margin: 5px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+}
+.registr input:hover{
+    background-color: aquamarine;}
+
+
+#btn{
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+
+}
+#btn:hover{
+    background-color: rgb(51,255,153);  
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
